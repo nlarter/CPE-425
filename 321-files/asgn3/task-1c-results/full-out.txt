@@ -1,0 +1,143 @@
+TEST 1 --
+Message 1: b'hello'
+Message 2: b'jello'
+Digest for message 1: 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
+Digest for message 2: 187c9bceeb919e1b3e6d20fa50ecabf7d9d50b5343e8f9a3d912abb13929102e
+TASK 2 --
+Digest for message 1: 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
+Digest for message 2: 187c9bceeb919e1b3e6d20fa50ecabf7d9d50b5343e8f9a3d912abb13929102e
+Truncated m1: 2c
+Truncated m2: 18
+Bits hashed: 8
+Collision found, message 1: DKszWyYjpG, message 2: faLJfIzUyy
+Hashed: 0c
+Time taken for 8 bits: 0.0002722740173339844
+Amount of inputs for 8 bits: 36
+
+Bits hashed: 10
+Collision found, message 1: MAegieYEPL, message 2: kVQSvlBAxZ
+Hashed: db
+Time taken for 10 bits: 0.00016188621520996094
+Amount of inputs for 10 bits: 22
+
+Bits hashed: 12
+Collision found, message 1: RybmECTuop, message 2: iHADNCHPwf
+Hashed: 0b6
+Time taken for 12 bits: 0.00037789344787597656
+Amount of inputs for 12 bits: 53
+
+Bits hashed: 14
+Collision found, message 1: jZAHuhreAy, message 2: YxUGduqahF
+Hashed: 617
+Time taken for 14 bits: 0.0006389617919921875
+Amount of inputs for 14 bits: 94
+
+Bits hashed: 16
+Collision found, message 1: yCMalNstcJ, message 2: EWMqKznCZj
+Hashed: 91db
+Time taken for 16 bits: 0.001222848892211914
+Amount of inputs for 16 bits: 181
+
+Bits hashed: 18
+Collision found, message 1: NlpoaBIYsx, message 2: uDjDVEYhfE
+Hashed: 7301
+Time taken for 18 bits: 0.0030488967895507812
+Amount of inputs for 18 bits: 455
+
+Bits hashed: 20
+Collision found, message 1: bJIRjzaxUp, message 2: NkPWhGlKLK
+Hashed: f4b13
+Time taken for 20 bits: 0.0067789554595947266
+Amount of inputs for 20 bits: 941
+
+Bits hashed: 22
+Collision found, message 1: ABgcLhfqVb, message 2: STIugXPbfm
+Hashed: 42651
+Time taken for 22 bits: 0.004508018493652344
+Amount of inputs for 22 bits: 622
+
+Bits hashed: 24
+Collision found, message 1: EupVQGBIsb, message 2: zfONcFEvJs
+Hashed: 101b68
+Time taken for 24 bits: 0.001132965087890625
+Amount of inputs for 24 bits: 163
+
+Bits hashed: 26
+Collision found, message 1: bbHuVLgREg, message 2: iekUUxhHvn
+Hashed: 8c222c
+Time taken for 26 bits: 0.06531620025634766
+Amount of inputs for 26 bits: 8347
+
+Bits hashed: 28
+Collision found, message 1: WgcYieViSp, message 2: ZusHCbmTDZ
+Hashed: d405a78
+Time taken for 28 bits: 0.1442718505859375
+Amount of inputs for 28 bits: 19852
+
+Bits hashed: 30
+Collision found, message 1: jitsFPpeza, message 2: eBxaAxPFHa
+Hashed: 1079b43
+Time taken for 30 bits: 0.01329183578491211
+Amount of inputs for 30 bits: 1918
+
+Bits hashed: 32
+Collision found, message 1: vkvgpKbiuA, message 2: NRKpsIVweF
+Hashed: 4e82f8f0
+Time taken for 32 bits: 0.9502620697021484
+Amount of inputs for 32 bits: 130485
+
+Bits hashed: 34
+Collision found, message 1: seKLbnfwWl, message 2: lMdNDYFVRl
+Hashed: 0d9a3c90
+Time taken for 34 bits: 0.45996713638305664
+Amount of inputs for 34 bits: 61686
+
+Bits hashed: 36
+Collision found, message 1: eUBOVkNeZd, message 2: cxMFESTKBW
+Hashed: e79954297
+Time taken for 36 bits: 0.970984935760498
+Amount of inputs for 36 bits: 131908
+
+Bits hashed: 38
+Collision found, message 1: kPDDPNjxSa, message 2: TaeLyNxIvc
+Hashed: f85b35f1c
+Time taken for 38 bits: 1.950852870941162
+Amount of inputs for 38 bits: 266494
+
+Bits hashed: 40
+Collision found, message 1: SPygmHVjuI, message 2: LtVjvUDmcw
+Hashed: 4b21709bd3
+Time taken for 40 bits: 7.612138032913208
+Amount of inputs for 40 bits: 1035084
+
+Bits hashed: 42
+Collision found, message 1: PKeEmLNXXz, message 2: iDhumEoZHk
+Hashed: e3c619e90b
+Time taken for 42 bits: 9.121064901351929
+Amount of inputs for 42 bits: 1236450
+
+Bits hashed: 44
+Collision found, message 1: LLoECtVVSB, message 2: liWjxgyRzv
+Hashed: e4635adcfb1
+Time taken for 44 bits: 43.08180475234985
+Amount of inputs for 44 bits: 5670822
+
+Bits hashed: 46
+Collision found, message 1: alPVAoxyOy, message 2: FHaBIxSzcB
+Hashed: e6e268b0b3b
+Time taken for 46 bits: 39.274173974990845
+Amount of inputs for 46 bits: 5337645
+
+Bits hashed: 48
+Collision found, message 1: KGjyoFjtBS, message 2: LkcdJIzuFf
+Hashed: 589bb32af562
+Time taken for 48 bits: 156.40047979354858
+Amount of inputs for 48 bits: 21507777
+
+Bits hashed: 50
+Collision found, message 1: EWrJDSoaju, message 2: DdGIGXTttZ
+Hashed: 8d66a765e9a4
+Time taken for 50 bits: 53.823298931121826
+Amount of inputs for 50 bits: 7565260
+
+Total time to find collisions for 8, 10, 12, ..., 50 bits: 315.30722880363464
