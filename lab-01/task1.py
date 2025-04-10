@@ -27,7 +27,7 @@ def crack_ecb(ciphertext, key_size=128):
             break
     return
 
-# much faster than ecb 2^40 butt still takes a long time
+
 def crack_rc4(ciphertext, key_size=40):
     num_keys = 2 ** key_size
     i = 0
