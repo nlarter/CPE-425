@@ -2,7 +2,7 @@ from Crypto.Cipher import AES
 from Crypto.Cipher import ARC4 as RC4
 from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad
-import binascii
+from itertools import product
 import time
 
 # using modified ecb encrypt function from csc 321
@@ -30,17 +30,19 @@ def crack_ecb(ciphertext, key_size=128):
 # much faster than ecb 2^40 butt still takes a long time
 def crack_rc4(ciphertext, key_size=40):
     num_keys = 2 ** key_size
-
-    for i in range(num_keys):
-        key = i.to_bytes(key_size // 8, byteorder='big')
+    i = 0
+    for i in product([0xFF], repeat=5):
+        key = bytes(i)
         cipher = RC4.new(key)
         decr = cipher.decrypt(ciphertext)
 
         if b"this is the wireless security lab" in decr:
+            print(f"Text: {decr}")
             print(f"Key: {key}")
+            print(f"i: {i}")
             break
-        if i > 1000000:
-            break
+        i += 1
+    
     return
 
 def rc4_encryption(fileText, key):
